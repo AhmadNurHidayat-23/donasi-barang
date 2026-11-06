@@ -1,0 +1,170 @@
+.back-link {
+    font-size: 11px;
+    color: var(--muted);
+    display: inline-block;
+    margin-bottom: 28px;
+}
+.detail-layout {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 60px;
+    align-items: start;
+}
+.item-photo img {
+    width: 100%;
+    height: 550px;
+    object-fit: contain;
+    background: #eeeee1;
+    border-radius: 3px;
+}
+.item-info h1 {
+    font-size: 46px;
+    margin: 25px 0 20px;
+    overflow-wrap: anywhere;
+}
+.badge {
+    display: inline-block;
+    font-size: 10px;
+    padding: 6px 10px;
+    border-radius: 3px;
+    background: #e4ebd8;
+    color: #5b7745;
+}
+.reserved {
+    background: #eee5ce;
+    color: #8c773d;
+}
+.completed {
+    background: #dee8db;
+    color: #4e6b45;
+}
+.condition {
+    font-size: 12px;
+    color: var(--green);
+    padding-bottom: 23px;
+    border-bottom: 1px solid var(--line);
+}
+.item-description {
+    white-space: pre-wrap;
+    font-size: 14px;
+    margin: 23px 0;
+    overflow-wrap: anywhere;
+}
+.privacy-note {
+    background: #edeee0;
+    padding: 15px;
+    font-size: 10px;
+    margin-bottom: 25px;
+}
+.item-info .notice {
+    margin-bottom: 0;
+}
+.applications {
+    margin: 55px 0;
+}
+.application {
+    border-top: 1px solid var(--line);
+    padding: 25px 0;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 35px;
+    align-items: center;
+}
+.application h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+.application p {
+    font-size: 12px;
+    max-width: 750px;
+    overflow-wrap: anywhere;
+}
+.application small {
+    margin-top: 10px;
+}
+.application form {
+    display: flex;
+    gap: 10px;
+}
+.private-panel {
+    max-width: 900px;
+    background: #edeee1;
+    padding: 35px;
+    margin-top: 45px;
+    border: 1px solid #d6dcc5;
+}
+.private-panel h2 {
+    font-size: 30px;
+    margin-bottom: 24px;
+}
+.private-panel > p {
+    font-size: 12px;
+}
+.pickup-note {
+    background: #fffef7;
+    padding: 20px;
+    margin: 22px 0;
+}
+.pickup-note strong {
+    font-size: 12px;
+    display: block;
+    margin-bottom: 12px;
+}
+.pickup-note p {
+    white-space: pre-wrap;
+    font-size: 12px;
+    overflow-wrap: anywhere;
+}
+.handover-state {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    border-block: 1px solid #cfd7bc;
+    padding: 20px 0;
+    margin: 28px 0;
+    font-size: 12px;
+}
+.private-panel > form > p {
+    margin-bottom: 15px;
+    font-size: 11px;
+}
+.timeline {
+    margin-top: 30px;
+    border-top: 1px solid #cfd7bc;
+    padding-top: 25px;
+}
+.timeline p {
+    font-size: 12px;
+    color: #6a775c;
+    padding: 0 0 20px 18px;
+    border-left: 1px solid #c8d3b7;
+}
+.timeline small {
+    font-size: 10px;
+    margin-top: 5px;
+}
+.history-heading {
+    font-size: 28px;
+    margin: 40px 0 25px;
+}
+.history-list {
+    border-top: 1px solid var(--line);
+}
+.history-list > a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    padding: 25px 0;
+    border-bottom: 1px solid var(--line);
+}
+.history-list strong {
+    font-size: 17px;
+}
+.history-list small {
+    margin-top: 8px;
+}
+.history-list > a > span:last-child {
+    font-size: 24px;
+    color: var(--accent);
+}

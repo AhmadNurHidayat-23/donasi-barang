@@ -1,0 +1,240 @@
+.hero {
+    max-width: 1440px;
+    margin: auto;
+    padding: 48px 55px 60px;
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 70px;
+    align-items: center;
+}
+.hero h1 {
+    font-size: 76px;
+    margin: 25px 0;
+}
+.hero > div > p {
+    font-size: 14px;
+    max-width: 400px;
+    line-height: 1.9;
+}
+.hero-actions {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 30px;
+}
+.hero-tags {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    border-top: 1px solid var(--line);
+    padding-top: 22px;
+    margin-top: 40px;
+    font-size: 7px;
+    letter-spacing: 1px;
+    color: #8c917e;
+}
+.hero figure {
+    margin: 0;
+}
+.hero img {
+    width: 100%;
+    height: 440px;
+    object-fit: cover;
+    border-radius: 50% 50% 3px 3px;
+}
+.hero figcaption {
+    padding-top: 18px;
+    font-size: 8px;
+    letter-spacing: 1.5px;
+    color: var(--muted);
+}
+.catalog {
+    max-width: 1440px;
+    margin: auto;
+    padding: 45px 55px 70px;
+    border-top: 1px solid var(--line);
+}
+.count {
+    font-size: 10px;
+    color: var(--muted);
+    border: 1px solid var(--line);
+    padding: 8px 12px;
+    border-radius: 20px;
+    white-space: nowrap;
+}
+.filters {
+    display: flex;
+    align-items: end;
+    gap: 18px;
+    margin: 30px 0;
+}
+.filters label {
+    margin: 0;
+    flex: 1;
+    font-size: 10px;
+}
+.filters label:first-child {
+    flex: 2;
+}
+.filters input,
+.filters select {
+    font-size: 12px;
+}
+.filters .btn {
+    font-size: 11px;
+}
+.donation-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px;
+}
+.donation-card {
+    border: 1px solid var(--line);
+    border-radius: 3px;
+    overflow: hidden;
+    background: #fffef8;
+}
+.donation-card > a > img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+.donation-card > div {
+    padding: 22px;
+}
+.donation-card .eyebrow {
+    font-size: 8px;
+    margin-bottom: 12px;
+}
+.donation-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.donation-card p {
+    font-size: 11px;
+}
+.card-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.card-bottom strong {
+    font-size: 11px;
+    color: var(--green);
+}
+.card-bottom a {
+    display: grid;
+    place-items: center;
+    border: 1px solid var(--line);
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    font-size: 21px;
+    color: var(--accent);
+}
+.how {
+    max-width: 1440px;
+    margin: auto;
+    padding: 50px 55px;
+    background: #edeee0;
+    border-top: 1px solid var(--line);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 60px;
+}
+.how h2 {
+    font-size: 35px;
+}
+.how ol {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    counter-reset: how;
+    margin: 0;
+    padding: 0;
+}
+.how li {
+    counter-increment: how;
+}
+.how li:before {
+    content: "0" counter(how);
+    font-family: Georgia, serif;
+    display: block;
+    font-size: 32px;
+    color: #91a075;
+    margin-bottom: 20px;
+}
+.how strong {
+    font-size: 14px;
+}
+.how p {
+    font-size: 11px;
+    margin-top: 12px;
+}
+.auth-layout {
+    max-width: 1150px;
+    margin: 60px auto 75px;
+    padding: 0 30px;
+    display: grid;
+    grid-template-columns: 1.15fr 1fr;
+    gap: 80px;
+    align-items: center;
+}
+.auth-layout h1 {
+    font-size: 54px;
+    margin: 25px 0;
+}
+.auth-layout > div > p {
+    max-width: 390px;
+}
+.auth-layout img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    margin-top: 28px;
+}
+.auth-panel h2 {
+    font-size: 29px;
+}
+.auth-panel .btn {
+    margin-top: 10px;
+}
+.auth-switch {
+    display: block;
+    margin: 22px 0;
+}
+.auth-panel > small {
+    border-top: 1px solid var(--line);
+    padding-top: 18px;
+    font-size: 10px;
+}
+.posting-layout {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 70px;
+    align-items: start;
+}
+.guidance {
+    padding: 25px 0;
+}
+.guidance h2 {
+    font-size: 40px;
+    margin-bottom: 28px;
+}
+.guidance ul {
+    padding-left: 20px;
+    color: var(--muted);
+    font-size: 13px;
+    line-height: 1.9;
+}
+.guidance li {
+    padding-bottom: 14px;
+}
+.guidance > p {
+    font-size: 12px;
+    border-top: 1px solid var(--line);
+    padding-top: 24px;
+    margin-top: 15px;
+}

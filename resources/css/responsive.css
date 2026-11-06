@@ -1,0 +1,130 @@
+@media (max-width: 1100px) {
+    header,
+    footer {
+        padding-inline: 30px;
+    }
+    .hero {
+        padding: 40px 30px;
+        gap: 35px;
+    }
+    .hero h1 {
+        font-size: 64px;
+    }
+    .hero img {
+        height: 400px;
+    }
+    .catalog,
+    .how {
+        padding: 40px 30px;
+    }
+    .workspace {
+        padding: 40px 30px;
+    }
+    .donation-grid {
+        gap: 18px;
+    }
+    .donation-card > a > img {
+        height: 210px;
+    }
+    .how {
+        gap: 35px;
+    }
+    .how ol {
+        gap: 20px;
+    }
+    .auth-layout {
+        gap: 40px;
+    }
+    .posting-layout {
+        gap: 35px;
+    }
+    .detail-layout {
+        gap: 35px;
+    }
+    .item-photo img {
+        height: 470px;
+    }
+    .item-info h1 {
+        font-size: 40px;
+    }
+}
+@media (max-width: 800px) {
+    .hero {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+    .hero h1 {
+        font-size: 54px;
+    }
+    .hero > div > p {
+        font-size: 12px;
+    }
+    .hero img {
+        height: 370px;
+    }
+    .hero-actions {
+        display: block;
+    }
+    .hero-actions > .text-link {
+        display: block;
+        margin-top: 18px;
+    }
+    .hero-tags {
+        font-size: 6px;
+        gap: 12px;
+    }
+    .donation-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .filters {
+        flex-wrap: wrap;
+    }
+    .filters label:first-child {
+        flex-basis: 100%;
+    }
+    .how {
+        grid-template-columns: 1fr;
+    }
+    .how ol {
+        gap: 25px;
+    }
+    .auth-layout {
+        grid-template-columns: 1fr;
+        max-width: 600px;
+        gap: 30px;
+    }
+    .auth-layout > div > img {
+        display: none;
+    }
+    .posting-layout {
+        grid-template-columns: 1fr;
+    }
+    .guidance {
+        padding: 0;
+    }
+    .guidance h2 {
+        font-size: 35px;
+    }
+    .detail-layout {
+        grid-template-columns: 1fr;
+    }
+    .item-photo img {
+        height: 450px;
+    }
+    .item-info {
+        max-width: none;
+    }
+    .application {
+        gap: 20px;
+    }
+    .private-panel {
+        padding: 30px;
+    }
+    nav {
+        gap: 17px;
+        font-size: 10px;
+    }
+    footer {
+        flex-wrap: wrap;
+    }
+}
