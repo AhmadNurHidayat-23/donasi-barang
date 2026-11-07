@@ -24,6 +24,16 @@ class Donation extends Model
         return ['donor_confirmed' => 'boolean', 'recipient_confirmed' => 'boolean', 'completed_at' => 'datetime'];
     }
 
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
+
+    public function recipient()
+    {
+        return $this->belongsTo(User::class, 'recipient_id');
+    }
+
     public function requests()
     {
         return $this->hasMany(DonationRequest::class);
